@@ -19,19 +19,20 @@ public class Methods{
             scan.next();
             System.out.print("Enter an integer this time... ");
         }
-        return scan.nextInt();
+        return scan.nextInt();//returns the integer the user input
     }
     
-    //method that prints the larger of the two inputs
+    //method that returns the larger of the two inputs
     public static int larger(int x, int y){
-        if (x > y) return x;
-        else return y;
+        if (x > y) return x; //checks if x is larger and returns x if it is
+        else return y; //otherwise it returns y
         
     }
     
+    //method determining a boolean that states whether or not the threee values are in ascending order
     public static Boolean ascending(int first, int second, int third){
         
-        return first <= second && second <= third;
+        return first <= second && second <= third; //tests to determine if the numbers are in ascending order
         
     }
     
