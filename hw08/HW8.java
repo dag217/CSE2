@@ -2,7 +2,8 @@
 //CSE2
 //10/24/2014
 
-//Handy description of program here
+//Variations on a get input method. User will be asked for a certain input and it will be compared to a list of acceptable inputs in a string
+//Basically, practice with methods
 
 import java.util.Scanner;
 
@@ -119,6 +120,8 @@ public class HW8 {
         
         
     }
+    
+    //it promised me a "copy of the above program on CourseSite"...
     
     //start the main method
     public static void main (String[] args){
